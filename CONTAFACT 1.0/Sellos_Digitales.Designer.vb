@@ -22,6 +22,7 @@ Partial Class Sellos_Digitales
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Sellos_Digitales))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_certificado = New System.Windows.Forms.TextBox()
@@ -318,10 +319,15 @@ Partial Class Sellos_Digitales
         Me.btn_usuario.TabIndex = 15
         Me.btn_usuario.UseVisualStyleBackColor = False
         '
+=======
+        Me.SuspendLayout()
+        '
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Sellos_Digitales
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(669, 574)
         Me.Controls.Add(Me.btn_usuario)
@@ -378,4 +384,12 @@ Partial Class Sellos_Digitales
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents btn_guardar As System.Windows.Forms.Button
     Friend WithEvents btn_usuario As System.Windows.Forms.Button
+=======
+        Me.ClientSize = New System.Drawing.Size(772, 550)
+        Me.Name = "Sellos_Digitales"
+        Me.Text = "Sellos_Digitales"
+        Me.ResumeLayout(False)
+
+    End Sub
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

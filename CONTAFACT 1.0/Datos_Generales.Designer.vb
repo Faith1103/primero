@@ -22,6 +22,7 @@ Partial Class Datos_Generales
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Datos_Generales))
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -244,10 +245,15 @@ Partial Class Datos_Generales
         Me.btn_usuario.TabIndex = 21
         Me.btn_usuario.UseVisualStyleBackColor = False
         '
+=======
+        Me.SuspendLayout()
+        '
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Datos_Generales
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(463, 370)
         Me.Controls.Add(Me.btn_usuario)
@@ -298,4 +304,12 @@ Partial Class Datos_Generales
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents btn_guardar As System.Windows.Forms.Button
     Friend WithEvents btn_usuario As System.Windows.Forms.Button
+=======
+        Me.ClientSize = New System.Drawing.Size(773, 559)
+        Me.Name = "Datos_Generales"
+        Me.Text = "Datos_Generales"
+        Me.ResumeLayout(False)
+
+    End Sub
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

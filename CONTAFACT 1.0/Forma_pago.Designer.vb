@@ -22,6 +22,7 @@ Partial Class Forma_pago
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Forma_pago))
         Me.btn_agregar = New System.Windows.Forms.Button()
@@ -97,10 +98,15 @@ Partial Class Forma_pago
         Me.FormapagoDataGridViewTextBoxColumn.Name = "FormapagoDataGridViewTextBoxColumn"
         Me.FormapagoDataGridViewTextBoxColumn.Width = 400
         '
+=======
+        Me.SuspendLayout()
+        '
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Forma_pago
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(678, 179)
         Me.Controls.Add(Me.DataGridView1)
@@ -122,4 +128,12 @@ Partial Class Forma_pago
     Friend WithEvents Cat_forma_pagoTableAdapter As CONTAFACT_1._0.contafact_newDataSet3TableAdapters.cat_forma_pagoTableAdapter
     Friend WithEvents IdformaDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents FormapagoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+=======
+        Me.ClientSize = New System.Drawing.Size(776, 556)
+        Me.Name = "Forma_pago"
+        Me.Text = "Forma_pago"
+        Me.ResumeLayout(False)
+
+    End Sub
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

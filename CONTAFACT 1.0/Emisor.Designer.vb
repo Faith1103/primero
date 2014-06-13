@@ -22,6 +22,7 @@ Partial Class Emisor
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Emisor))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_nombre = New System.Windows.Forms.TextBox()
@@ -279,10 +280,15 @@ Partial Class Emisor
         Me.btn_usuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_usuario.UseVisualStyleBackColor = False
         '
+=======
+        Me.SuspendLayout()
+        '
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Emisor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(696, 386)
         Me.Controls.Add(Me.btn_usuario)
@@ -339,4 +345,12 @@ Partial Class Emisor
     Friend WithEvents btn_salir As System.Windows.Forms.Button
     Friend WithEvents btn_regimen_fiscal As System.Windows.Forms.Button
     Friend WithEvents btn_usuario As System.Windows.Forms.Button
+=======
+        Me.ClientSize = New System.Drawing.Size(762, 553)
+        Me.Name = "Emisor"
+        Me.Text = "Emisor"
+        Me.ResumeLayout(False)
+
+    End Sub
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

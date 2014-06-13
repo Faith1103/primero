@@ -138,6 +138,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>contafact_newDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="contafact_newDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>contafact_newDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="contafact_newDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>contafact_newDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="contafact_newDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>contafact_newDataSet6.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Datos_Generales.Designer.vb">
       <DependentUpon>Datos_Generales.vb</DependentUpon>
     </Compile>
@@ -214,6 +229,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Regimen_Fiscal.Designer.vb">
+      <DependentUpon>Regimen_Fiscal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Regimen_Fiscal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Sellos_Digitales.Designer.vb">
       <DependentUpon>Sellos_Digitales.vb</DependentUpon>
     </Compile>
@@ -285,6 +306,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Regimen_Fiscal.resx">
+      <DependentUpon>Regimen_Fiscal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sellos_Digitales.resx">
       <DependentUpon>Sellos_Digitales.vb</DependentUpon>
     </EmbeddedResource>
@@ -340,6 +364,39 @@
     </None>
     <None Include="contafact_newDataSet3.xss">
       <DependentUpon>contafact_newDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="contafact_newDataSet4.xsc">
+      <DependentUpon>contafact_newDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="contafact_newDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>contafact_newDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="contafact_newDataSet4.xss">
+      <DependentUpon>contafact_newDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="contafact_newDataSet5.xsc">
+      <DependentUpon>contafact_newDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="contafact_newDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>contafact_newDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="contafact_newDataSet5.xss">
+      <DependentUpon>contafact_newDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="contafact_newDataSet6.xsc">
+      <DependentUpon>contafact_newDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="contafact_newDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>contafact_newDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="contafact_newDataSet6.xss">
+      <DependentUpon>contafact_newDataSet6.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

@@ -22,6 +22,7 @@ Partial Class Iva
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Iva))
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
@@ -163,10 +164,15 @@ Partial Class Iva
         Me.btn_guardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_guardar.UseVisualStyleBackColor = False
         '
+=======
+        Me.SuspendLayout()
+        '
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Iva
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(659, 303)
         Me.Controls.Add(Me.btn_guardar)
         Me.Controls.Add(Me.btn_nuevo)
@@ -197,4 +203,12 @@ Partial Class Iva
     Friend WithEvents txt_descripcion As System.Windows.Forms.TextBox
     Friend WithEvents btn_nuevo As System.Windows.Forms.Button
     Friend WithEvents btn_guardar As System.Windows.Forms.Button
+=======
+        Me.ClientSize = New System.Drawing.Size(776, 556)
+        Me.Name = "Iva"
+        Me.Text = "Iva"
+        Me.ResumeLayout(False)
+
+    End Sub
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

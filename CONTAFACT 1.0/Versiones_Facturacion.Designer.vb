@@ -22,6 +22,7 @@ Partial Class Versiones_Facturacion
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Versiones_Facturacion))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -128,10 +129,15 @@ Partial Class Versiones_Facturacion
         Me.btn_eliminar.TabIndex = 2
         Me.btn_eliminar.UseVisualStyleBackColor = False
         '
+=======
+        Me.SuspendLayout()
+        '
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Versiones_Facturacion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(726, 206)
         Me.Controls.Add(Me.btn_eliminar)
@@ -157,4 +163,12 @@ Partial Class Versiones_Facturacion
     Friend WithEvents ActivoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents btn_agregar As System.Windows.Forms.Button
     Friend WithEvents btn_eliminar As System.Windows.Forms.Button
+=======
+        Me.ClientSize = New System.Drawing.Size(765, 554)
+        Me.Name = "Versiones_Facturacion"
+        Me.Text = "Versiones_Facturacion"
+        Me.ResumeLayout(False)
+
+    End Sub
+>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class
