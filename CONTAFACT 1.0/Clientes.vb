@@ -3,7 +3,7 @@
     Private Sub BindingNavigator1_RefreshItems(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
-<<<<<<< HEAD
+    '<<<<<<< HEAD
 
     Private Sub btn_correo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_correo.Click
         Clientes_Email.Show()
@@ -19,6 +19,6 @@
         Usuario_Modif.Show()
 
     End Sub
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+    '=======
+    '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

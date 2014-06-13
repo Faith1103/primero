@@ -22,7 +22,6 @@ Partial Class Iva
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Iva))
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
@@ -44,7 +43,7 @@ Partial Class Iva
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(659, 303)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(676, 233)
         Me.ShapeContainer1.TabIndex = 0
         Me.ShapeContainer1.TabStop = False
         '
@@ -52,7 +51,7 @@ Partial Class Iva
         '
         Me.RectangleShape1.Location = New System.Drawing.Point(25, 24)
         Me.RectangleShape1.Name = "RectangleShape1"
-        Me.RectangleShape1.Size = New System.Drawing.Size(527, 178)
+        Me.RectangleShape1.Size = New System.Drawing.Size(527, 134)
         '
         'btn_salir
         '
@@ -61,7 +60,7 @@ Partial Class Iva
         Me.btn_salir.ForeColor = System.Drawing.Color.White
         Me.btn_salir.Image = CType(resources.GetObject("btn_salir.Image"), System.Drawing.Image)
         Me.btn_salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_salir.Location = New System.Drawing.Point(375, 242)
+        Me.btn_salir.Location = New System.Drawing.Point(375, 178)
         Me.btn_salir.Name = "btn_salir"
         Me.btn_salir.Size = New System.Drawing.Size(178, 49)
         Me.btn_salir.TabIndex = 1
@@ -141,7 +140,7 @@ Partial Class Iva
         Me.btn_nuevo.ForeColor = System.Drawing.Color.White
         Me.btn_nuevo.Image = CType(resources.GetObject("btn_nuevo.Image"), System.Drawing.Image)
         Me.btn_nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_nuevo.Location = New System.Drawing.Point(25, 242)
+        Me.btn_nuevo.Location = New System.Drawing.Point(25, 178)
         Me.btn_nuevo.Name = "btn_nuevo"
         Me.btn_nuevo.Size = New System.Drawing.Size(175, 49)
         Me.btn_nuevo.TabIndex = 9
@@ -156,7 +155,7 @@ Partial Class Iva
         Me.btn_guardar.ForeColor = System.Drawing.Color.White
         Me.btn_guardar.Image = CType(resources.GetObject("btn_guardar.Image"), System.Drawing.Image)
         Me.btn_guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_guardar.Location = New System.Drawing.Point(206, 242)
+        Me.btn_guardar.Location = New System.Drawing.Point(206, 178)
         Me.btn_guardar.Name = "btn_guardar"
         Me.btn_guardar.Size = New System.Drawing.Size(163, 49)
         Me.btn_guardar.TabIndex = 10
@@ -164,16 +163,12 @@ Partial Class Iva
         Me.btn_guardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_guardar.UseVisualStyleBackColor = False
         '
-=======
-        Me.SuspendLayout()
-        '
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Iva
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< HEAD
-        Me.ClientSize = New System.Drawing.Size(659, 303)
+        Me.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.ClientSize = New System.Drawing.Size(676, 233)
         Me.Controls.Add(Me.btn_guardar)
         Me.Controls.Add(Me.btn_nuevo)
         Me.Controls.Add(Me.txt_descripcion)
@@ -191,6 +186,7 @@ Partial Class Iva
         Me.PerformLayout()
 
     End Sub
+
     Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
     Friend WithEvents btn_salir As System.Windows.Forms.Button
@@ -203,12 +199,6 @@ Partial Class Iva
     Friend WithEvents txt_descripcion As System.Windows.Forms.TextBox
     Friend WithEvents btn_nuevo As System.Windows.Forms.Button
     Friend WithEvents btn_guardar As System.Windows.Forms.Button
-=======
-        Me.ClientSize = New System.Drawing.Size(776, 556)
-        Me.Name = "Iva"
-        Me.Text = "Iva"
-        Me.ResumeLayout(False)
 
-    End Sub
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+   
 End Class

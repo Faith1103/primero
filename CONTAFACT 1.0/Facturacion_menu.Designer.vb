@@ -27,7 +27,6 @@ Partial Class Facturacion_menu
         Me.CatalogosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MetodosDePagoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormasDePagoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConsecutivosGeneralesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EmisorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SellosDigitalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FoliosDigitalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -56,7 +55,7 @@ Partial Class Facturacion_menu
         '
         'CatalogosToolStripMenuItem
         '
-        Me.CatalogosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MetodosDePagoToolStripMenuItem, Me.FormasDePagoToolStripMenuItem, Me.ConsecutivosGeneralesToolStripMenuItem, Me.EmisorToolStripMenuItem, Me.SellosDigitalesToolStripMenuItem, Me.FoliosDigitalesToolStripMenuItem, Me.ToolStripMenuItem1, Me.VersionesFacturacionElectronicaToolStripMenuItem, Me.ToolStripSeparator1, Me.DatosGeneralesToolStripMenuItem})
+        Me.CatalogosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MetodosDePagoToolStripMenuItem, Me.FormasDePagoToolStripMenuItem, Me.EmisorToolStripMenuItem, Me.SellosDigitalesToolStripMenuItem, Me.FoliosDigitalesToolStripMenuItem, Me.ToolStripMenuItem1, Me.VersionesFacturacionElectronicaToolStripMenuItem, Me.ToolStripSeparator1, Me.DatosGeneralesToolStripMenuItem})
         Me.CatalogosToolStripMenuItem.Name = "CatalogosToolStripMenuItem"
         Me.CatalogosToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.CatalogosToolStripMenuItem.Text = "&Catalogos"
@@ -72,12 +71,6 @@ Partial Class Facturacion_menu
         Me.FormasDePagoToolStripMenuItem.Name = "FormasDePagoToolStripMenuItem"
         Me.FormasDePagoToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
         Me.FormasDePagoToolStripMenuItem.Text = "&Formas De Pago"
-        '
-        'ConsecutivosGeneralesToolStripMenuItem
-        '
-        Me.ConsecutivosGeneralesToolStripMenuItem.Name = "ConsecutivosGeneralesToolStripMenuItem"
-        Me.ConsecutivosGeneralesToolStripMenuItem.Size = New System.Drawing.Size(250, 22)
-        Me.ConsecutivosGeneralesToolStripMenuItem.Text = "C&onsecutivos Generales"
         '
         'EmisorToolStripMenuItem
         '
@@ -148,7 +141,6 @@ Partial Class Facturacion_menu
     Friend WithEvents CatalogosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MetodosDePagoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FormasDePagoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ConsecutivosGeneralesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EmisorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SellosDigitalesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FoliosDigitalesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem

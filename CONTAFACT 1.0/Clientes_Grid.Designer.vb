@@ -24,18 +24,18 @@ Partial Class Clientes_Grid
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Contafact_newDataSet = New CONTAFACT_1._0.contafact_newDataSet()
-        Me.CatclienteBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Cat_clienteTableAdapter = New CONTAFACT_1._0.contafact_newDataSetTableAdapters.cat_clienteTableAdapter()
         Me.CteidclienteDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CteRFCDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CteRAZONSOCIALDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CatclienteBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Contafact_newDataSet = New CONTAFACT_1._0.contafact_newDataSet()
+        Me.Cat_clienteTableAdapter = New CONTAFACT_1._0.contafact_newDataSetTableAdapters.cat_clienteTableAdapter()
         Me.txt_cliente = New System.Windows.Forms.TextBox()
         Me.txt_rfc = New System.Windows.Forms.TextBox()
         Me.txt_razon = New System.Windows.Forms.TextBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Contafact_newDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CatclienteBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Contafact_newDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -49,20 +49,6 @@ Partial Class Clientes_Grid
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(747, 496)
         Me.DataGridView1.TabIndex = 0
-        '
-        'Contafact_newDataSet
-        '
-        Me.Contafact_newDataSet.DataSetName = "contafact_newDataSet"
-        Me.Contafact_newDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'CatclienteBindingSource
-        '
-        Me.CatclienteBindingSource.DataMember = "cat_cliente"
-        Me.CatclienteBindingSource.DataSource = Me.Contafact_newDataSet
-        '
-        'Cat_clienteTableAdapter
-        '
-        Me.Cat_clienteTableAdapter.ClearBeforeFill = True
         '
         'CteidclienteDataGridViewTextBoxColumn
         '
@@ -82,6 +68,20 @@ Partial Class Clientes_Grid
         Me.CteRAZONSOCIALDataGridViewTextBoxColumn.HeaderText = "cte_RAZON_SOCIAL"
         Me.CteRAZONSOCIALDataGridViewTextBoxColumn.Name = "CteRAZONSOCIALDataGridViewTextBoxColumn"
         Me.CteRAZONSOCIALDataGridViewTextBoxColumn.Width = 500
+        '
+        'CatclienteBindingSource
+        '
+        Me.CatclienteBindingSource.DataMember = "cat_cliente"
+        Me.CatclienteBindingSource.DataSource = Me.Contafact_newDataSet
+        '
+        'Contafact_newDataSet
+        '
+        Me.Contafact_newDataSet.DataSetName = "contafact_newDataSet"
+        Me.Contafact_newDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Cat_clienteTableAdapter
+        '
+        Me.Cat_clienteTableAdapter.ClearBeforeFill = True
         '
         'txt_cliente
         '
@@ -108,6 +108,7 @@ Partial Class Clientes_Grid
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(792, 554)
         Me.Controls.Add(Me.txt_razon)
         Me.Controls.Add(Me.txt_rfc)
@@ -116,8 +117,8 @@ Partial Class Clientes_Grid
         Me.Name = "Clientes_Grid"
         Me.Text = "Listado Clientes"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Contafact_newDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CatclienteBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Contafact_newDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

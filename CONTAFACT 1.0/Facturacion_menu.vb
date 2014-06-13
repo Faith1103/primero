@@ -26,7 +26,7 @@ Public Class Facturacion_menu
         form.Show()
     End Sub
 
-    Private Sub ConsecutivosGeneralesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ConsecutivosGeneralesToolStripMenuItem.Click
+    Private Sub ConsecutivosGeneralesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim form As New ConsecutivosGenerales
         form.MdiParent = Me
         form.Show()
@@ -80,5 +80,11 @@ Public Class Facturacion_menu
             usuario = dr.GetString(0)
         Loop
         Me.Text = "FACTURACION MENU --> DSN= " + g_dsn.ToUpper + " USUARIO= " + usuario.ToUpper
+    End Sub
+
+    Private Sub DatosGeneralesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DatosGeneralesToolStripMenuItem.Click
+        Dim form As New Datos_Generales
+        form.MdiParent = Me
+        form.Show()
     End Sub
 End Class

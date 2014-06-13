@@ -22,7 +22,7 @@ Partial Class Metodo_Pago
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-<<<<<<< HEAD
+
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Metodo_Pago))
         Me.dgv_metodo_pago = New System.Windows.Forms.DataGridView()
@@ -98,15 +98,15 @@ Partial Class Metodo_Pago
         Me.btn_elimina.TabIndex = 2
         Me.btn_elimina.UseVisualStyleBackColor = False
         '
-=======
+
         Me.SuspendLayout()
         '
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
         'Metodo_Pago
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< HEAD
+
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(716, 197)
         Me.Controls.Add(Me.btn_elimina)
@@ -128,12 +128,6 @@ Partial Class Metodo_Pago
     Friend WithEvents MetododescripcionDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents btn_nuevo As System.Windows.Forms.Button
     Friend WithEvents btn_elimina As System.Windows.Forms.Button
-=======
-        Me.ClientSize = New System.Drawing.Size(767, 545)
-        Me.Name = "Metodo_Pago"
-        Me.Text = "Metodo_Pago"
-        Me.ResumeLayout(False)
 
-    End Sub
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+     
 End Class

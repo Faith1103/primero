@@ -241,6 +241,12 @@
     <Compile Include="Sellos_Digitales.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Usuarios.Designer.vb">
+      <DependentUpon>Usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Usuario_Modif.Designer.vb">
       <DependentUpon>Usuario_Modif.vb</DependentUpon>
     </Compile>
@@ -311,6 +317,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sellos_Digitales.resx">
       <DependentUpon>Sellos_Digitales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario_Modif.resx">
       <DependentUpon>Usuario_Modif.vb</DependentUpon>

@@ -54,13 +54,12 @@ Partial Class Clientes
         Me.Label15 = New System.Windows.Forms.Label()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-<<<<<<< HEAD
+
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-=======
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
+       
+
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -68,18 +67,16 @@ Partial Class Clientes
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.OdbcSelectCommand1 = New System.Data.Odbc.OdbcCommand()
-<<<<<<< HEAD
+
         Me.OdbcConnection1 = New System.Data.Odbc.OdbcConnection()
         Me.OdbcDataAdapter1 = New System.Data.Odbc.OdbcDataAdapter()
         Me.btn_nuevo = New System.Windows.Forms.Button()
         Me.btn_borrar = New System.Windows.Forms.Button()
-=======
-        Me.OdbcDataAdapter1 = New System.Data.Odbc.OdbcDataAdapter()
-        Me.OdbcConnection1 = New System.Data.Odbc.OdbcConnection()
-        Me.btn_nuevo = New System.Windows.Forms.Button()
-        Me.btn_borrar = New System.Windows.Forms.Button()
+
+       
+       
         Me.btn_modificar = New System.Windows.Forms.Button()
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
         Me.btn_guardar = New System.Windows.Forms.Button()
         Me.btn_buscar = New System.Windows.Forms.Button()
         Me.btn_imprimir = New System.Windows.Forms.Button()
@@ -87,10 +84,10 @@ Partial Class Clientes
         Me.btn_metodo_pago = New System.Windows.Forms.Button()
         Me.btn_derecha = New System.Windows.Forms.Button()
         Me.btn_izquierda = New System.Windows.Forms.Button()
-<<<<<<< HEAD
+
         Me.btn_usuario = New System.Windows.Forms.Button()
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
+
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -365,7 +362,7 @@ Partial Class Clientes
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Tipo Operacion"
         '
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
@@ -378,8 +375,8 @@ Partial Class Clientes
         Me.RadioButton2.Text = "Exportacion"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '=======
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
@@ -392,8 +389,8 @@ Partial Class Clientes
         Me.RadioButton1.Text = "Importacion"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
-<<<<<<< HEAD
-=======
+        '<<<<<<< HEAD
+        '=======
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
@@ -406,7 +403,7 @@ Partial Class Clientes
         Me.RadioButton2.Text = "Exportacion"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Label16
         '
         Me.Label16.AutoSize = True
@@ -463,25 +460,23 @@ Partial Class Clientes
         Me.OdbcSelectCommand1.CommandText = resources.GetString("OdbcSelectCommand1.CommandText")
         Me.OdbcSelectCommand1.Connection = Me.OdbcConnection1
         '
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         'OdbcConnection1
         '
         Me.OdbcConnection1.ConnectionString = resources.GetString("OdbcConnection1.ConnectionString")
         '
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '=======
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'OdbcDataAdapter1
         '
         Me.OdbcDataAdapter1.SelectCommand = Me.OdbcSelectCommand1
         Me.OdbcDataAdapter1.TableMappings.AddRange(New System.Data.Common.DataTableMapping() {New System.Data.Common.DataTableMapping("Table", "Table", New System.Data.Common.DataColumnMapping() {New System.Data.Common.DataColumnMapping("cte_id_cliente", "cte_id_cliente"), New System.Data.Common.DataColumnMapping("cte_RAZON_SOCIAL", "cte_RAZON_SOCIAL"), New System.Data.Common.DataColumnMapping("cte_RFC", "cte_RFC"), New System.Data.Common.DataColumnMapping("cte_cve_telefono", "cte_cve_telefono"), New System.Data.Common.DataColumnMapping("cte_fax", "cte_fax"), New System.Data.Common.DataColumnMapping("cte_telefono1", "cte_telefono1"), New System.Data.Common.DataColumnMapping("cte_calle", "cte_calle"), New System.Data.Common.DataColumnMapping("cte_numero_ext", "cte_numero_ext"), New System.Data.Common.DataColumnMapping("cte_colonia", "cte_colonia"), New System.Data.Common.DataColumnMapping("cte_codigo_postal", "cte_codigo_postal"), New System.Data.Common.DataColumnMapping("cte_id_municipio", "cte_id_municipio"), New System.Data.Common.DataColumnMapping("cte_cve_cliente", "cte_cve_cliente"), New System.Data.Common.DataColumnMapping("cte_cve_tipo_empresa", "cte_cve_tipo_empresa"), New System.Data.Common.DataColumnMapping("cte_id_corresponsal", "cte_id_corresponsal"), New System.Data.Common.DataColumnMapping("cte_fecha_registro", "cte_fecha_registro"), New System.Data.Common.DataColumnMapping("cte_id_usuario_registro", "cte_id_usuario_registro"), New System.Data.Common.DataColumnMapping("cte_fecha_ultmodif", "cte_fecha_ultmodif"), New System.Data.Common.DataColumnMapping("cte_id_usuario_ultmodif", "cte_id_usuario_ultmodif"), New System.Data.Common.DataColumnMapping("cte_Curp", "cte_Curp"), New System.Data.Common.DataColumnMapping("cte_Numero_Interior", "cte_Numero_Interior"), New System.Data.Common.DataColumnMapping("cte_id_fiscal", "cte_id_fiscal"), New System.Data.Common.DataColumnMapping("cte_id_situacion", "cte_id_situacion"), New System.Data.Common.DataColumnMapping("cte_observaciones", "cte_observaciones"), New System.Data.Common.DataColumnMapping("cte_telefono", "cte_telefono"), New System.Data.Common.DataColumnMapping("nombre_benef", "nombre_benef"), New System.Data.Common.DataColumnMapping("cte_porc_honorarios", "cte_porc_honorarios"), New System.Data.Common.DataColumnMapping("cte_cuota_fija", "cte_cuota_fija"), New System.Data.Common.DataColumnMapping("cte_porc_comple", "cte_porc_comple")})})
         '
-<<<<<<< HEAD
-=======
-        'OdbcConnection1
+        '<<<<<<< HEAD
+        '=======
+       
         '
-        Me.OdbcConnection1.ConnectionString = resources.GetString("OdbcConnection1.ConnectionString")
-        '
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'btn_nuevo
         '
         Me.btn_nuevo.BackColor = System.Drawing.Color.Navy
@@ -489,11 +484,11 @@ Partial Class Clientes
         Me.btn_nuevo.ForeColor = System.Drawing.Color.White
         Me.btn_nuevo.Image = CType(resources.GetObject("btn_nuevo.Image"), System.Drawing.Image)
         Me.btn_nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Me.btn_nuevo.Location = New System.Drawing.Point(182, 562)
-=======
+        '=======
         Me.btn_nuevo.Location = New System.Drawing.Point(78, 562)
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         Me.btn_nuevo.Name = "btn_nuevo"
         Me.btn_nuevo.Size = New System.Drawing.Size(185, 61)
         Me.btn_nuevo.TabIndex = 34
@@ -508,11 +503,11 @@ Partial Class Clientes
         Me.btn_borrar.ForeColor = System.Drawing.Color.White
         Me.btn_borrar.Image = CType(resources.GetObject("btn_borrar.Image"), System.Drawing.Image)
         Me.btn_borrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Me.btn_borrar.Location = New System.Drawing.Point(375, 562)
-=======
+        '=======
         Me.btn_borrar.Location = New System.Drawing.Point(271, 562)
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         Me.btn_borrar.Name = "btn_borrar"
         Me.btn_borrar.Size = New System.Drawing.Size(176, 61)
         Me.btn_borrar.TabIndex = 35
@@ -520,8 +515,8 @@ Partial Class Clientes
         Me.btn_borrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_borrar.UseVisualStyleBackColor = False
         '
-<<<<<<< HEAD
-=======
+        '<<<<<<< HEAD
+        '=======
         'btn_modificar
         '
         Me.btn_modificar.BackColor = System.Drawing.Color.Navy
@@ -537,7 +532,7 @@ Partial Class Clientes
         Me.btn_modificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_modificar.UseVisualStyleBackColor = False
         '
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'btn_guardar
         '
         Me.btn_guardar.BackColor = System.Drawing.Color.Navy
@@ -545,11 +540,11 @@ Partial Class Clientes
         Me.btn_guardar.ForeColor = System.Drawing.Color.White
         Me.btn_guardar.Image = CType(resources.GetObject("btn_guardar.Image"), System.Drawing.Image)
         Me.btn_guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Me.btn_guardar.Location = New System.Drawing.Point(555, 562)
-=======
+        '=======
         Me.btn_guardar.Location = New System.Drawing.Point(646, 562)
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         Me.btn_guardar.Name = "btn_guardar"
         Me.btn_guardar.Size = New System.Drawing.Size(171, 61)
         Me.btn_guardar.TabIndex = 37
@@ -623,7 +618,7 @@ Partial Class Clientes
         Me.btn_izquierda.TabIndex = 43
         Me.btn_izquierda.UseVisualStyleBackColor = False
         '
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         'btn_usuario
         '
         Me.btn_usuario.BackColor = System.Drawing.Color.Navy
@@ -635,18 +630,18 @@ Partial Class Clientes
         Me.btn_usuario.TabIndex = 44
         Me.btn_usuario.UseVisualStyleBackColor = False
         '
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '=======
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         'Clientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(1009, 635)
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Me.Controls.Add(Me.btn_usuario)
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '=======
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         Me.Controls.Add(Me.btn_izquierda)
         Me.Controls.Add(Me.btn_derecha)
         Me.Controls.Add(Me.btn_metodo_pago)
@@ -654,10 +649,10 @@ Partial Class Clientes
         Me.Controls.Add(Me.btn_imprimir)
         Me.Controls.Add(Me.btn_buscar)
         Me.Controls.Add(Me.btn_guardar)
-<<<<<<< HEAD
-=======
+        '<<<<<<< HEAD
+        '=======
         Me.Controls.Add(Me.btn_modificar)
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
         Me.Controls.Add(Me.btn_borrar)
         Me.Controls.Add(Me.btn_nuevo)
         Me.Controls.Add(Me.TextBox14)
@@ -750,10 +745,10 @@ Partial Class Clientes
     Friend WithEvents OdbcDataAdapter1 As System.Data.Odbc.OdbcDataAdapter
     Friend WithEvents btn_nuevo As System.Windows.Forms.Button
     Friend WithEvents btn_borrar As System.Windows.Forms.Button
-<<<<<<< HEAD
-=======
+    '<<<<<<< HEAD
+    '=======
     Friend WithEvents btn_modificar As System.Windows.Forms.Button
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+    '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
     Friend WithEvents btn_guardar As System.Windows.Forms.Button
     Friend WithEvents btn_buscar As System.Windows.Forms.Button
     Friend WithEvents btn_imprimir As System.Windows.Forms.Button
@@ -761,8 +756,8 @@ Partial Class Clientes
     Friend WithEvents btn_metodo_pago As System.Windows.Forms.Button
     Friend WithEvents btn_derecha As System.Windows.Forms.Button
     Friend WithEvents btn_izquierda As System.Windows.Forms.Button
-<<<<<<< HEAD
+    '<<<<<<< HEAD
     Friend WithEvents btn_usuario As System.Windows.Forms.Button
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+    '=======
+    '>>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
 End Class

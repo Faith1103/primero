@@ -39,4 +39,12 @@ Public Class Main
         Loop
         Me.Text = "CONTAFACT 1.0 DSN= " + g_dsn.ToUpper + " USUARIO= " + usuario.ToUpper
     End Sub
+
+    Private Sub UsuariosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UsuariosToolStripMenuItem.Click
+        Dim form As New Usuarios
+
+        ' form.MdiParent = Me
+        form.Show()
+
+    End Sub
 End Class

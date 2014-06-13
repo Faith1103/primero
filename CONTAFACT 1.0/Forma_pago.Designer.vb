@@ -22,20 +22,19 @@ Partial Class Forma_pago
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-<<<<<<< HEAD
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Forma_pago))
         Me.btn_agregar = New System.Windows.Forms.Button()
         Me.btn_eliminar = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Contafact_newDataSet3 = New CONTAFACT_1._0.contafact_newDataSet3()
-        Me.CatformapagoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Cat_forma_pagoTableAdapter = New CONTAFACT_1._0.contafact_newDataSet3TableAdapters.cat_forma_pagoTableAdapter()
         Me.IdformaDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.FormapagoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CatformapagoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Contafact_newDataSet3 = New CONTAFACT_1._0.contafact_newDataSet3()
+        Me.Cat_forma_pagoTableAdapter = New CONTAFACT_1._0.contafact_newDataSet3TableAdapters.cat_forma_pagoTableAdapter()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Contafact_newDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CatformapagoBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Contafact_newDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btn_agregar
@@ -71,20 +70,6 @@ Partial Class Forma_pago
         Me.DataGridView1.Size = New System.Drawing.Size(548, 150)
         Me.DataGridView1.TabIndex = 2
         '
-        'Contafact_newDataSet3
-        '
-        Me.Contafact_newDataSet3.DataSetName = "contafact_newDataSet3"
-        Me.Contafact_newDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'CatformapagoBindingSource
-        '
-        Me.CatformapagoBindingSource.DataMember = "cat_forma_pago"
-        Me.CatformapagoBindingSource.DataSource = Me.Contafact_newDataSet3
-        '
-        'Cat_forma_pagoTableAdapter
-        '
-        Me.Cat_forma_pagoTableAdapter.ClearBeforeFill = True
-        '
         'IdformaDataGridViewTextBoxColumn
         '
         Me.IdformaDataGridViewTextBoxColumn.DataPropertyName = "id_forma"
@@ -98,28 +83,38 @@ Partial Class Forma_pago
         Me.FormapagoDataGridViewTextBoxColumn.Name = "FormapagoDataGridViewTextBoxColumn"
         Me.FormapagoDataGridViewTextBoxColumn.Width = 400
         '
-=======
-        Me.SuspendLayout()
+        'CatformapagoBindingSource
         '
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+        Me.CatformapagoBindingSource.DataMember = "cat_forma_pago"
+        Me.CatformapagoBindingSource.DataSource = Me.Contafact_newDataSet3
+        '
+        'Contafact_newDataSet3
+        '
+        Me.Contafact_newDataSet3.DataSetName = "contafact_newDataSet3"
+        Me.Contafact_newDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Cat_forma_pagoTableAdapter
+        '
+        Me.Cat_forma_pagoTableAdapter.ClearBeforeFill = True
+        '
         'Forma_pago
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< HEAD
         Me.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.ClientSize = New System.Drawing.Size(678, 179)
+        Me.ClientSize = New System.Drawing.Size(673, 175)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.btn_eliminar)
         Me.Controls.Add(Me.btn_agregar)
         Me.Name = "Forma_pago"
-        Me.Text = "Forma Pago"
+        Me.Text = "Forma_pago"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Contafact_newDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CatformapagoBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Contafact_newDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
+
     Friend WithEvents btn_agregar As System.Windows.Forms.Button
     Friend WithEvents btn_eliminar As System.Windows.Forms.Button
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
@@ -128,12 +123,6 @@ Partial Class Forma_pago
     Friend WithEvents Cat_forma_pagoTableAdapter As CONTAFACT_1._0.contafact_newDataSet3TableAdapters.cat_forma_pagoTableAdapter
     Friend WithEvents IdformaDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents FormapagoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-=======
-        Me.ClientSize = New System.Drawing.Size(776, 556)
-        Me.Name = "Forma_pago"
-        Me.Text = "Forma_pago"
-        Me.ResumeLayout(False)
 
-    End Sub
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+  
 End Class

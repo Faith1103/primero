@@ -123,12 +123,11 @@
   <metadata name="OdbcSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-<<<<<<< HEAD
+
   <metadata name="OdbcSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
   <data name="OdbcSelectCommand1.CommandText" xml:space="preserve">
     <value>SELECT cte_id_cliente, "cte_RAZON_SOCIAL", "cte_RFC", cte_cve_telefono, 
        cte_fax, cte_telefono1, cte_calle, cte_numero_ext, cte_colonia, 
@@ -781,8 +780,7 @@
         TkSuQmCC
 </value>
   </data>
-<<<<<<< HEAD
-=======
+
   <data name="btn_modificar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -1126,7 +1124,7 @@
         INHbzWMK8vF4bn4+n69zvD/fifJ6/wcA6fxopzTKfQAAAABJRU5ErkJggg==
 </value>
   </data>
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
   <data name="btn_guardar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -3355,7 +3353,7 @@
         TAP/oqJBfBJHwu6N9yF93f6bGP49PluEn+f3FPb1nS7f93/Vemk2S4nYDQAAAABJRU5ErkJggg==
 </value>
   </data>
-<<<<<<< HEAD
+
   <data name="btn_usuario.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -3663,6 +3661,5 @@
         /AAAAABJRU5ErkJggg==
 </value>
   </data>
-=======
->>>>>>> cbcb8bd088aa3de7a1e7bb593e67b469ec8ea504
+
 </root>
