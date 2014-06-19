@@ -24,43 +24,27 @@ Partial Class Regimen_Fiscal
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Regimen_Fiscal))
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Contafact_newDataSet4 = New CONTAFACT_1._0.contafact_newDataSet4()
-        Me.CatregimenfiscalBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Cat_regimen_fiscalTableAdapter = New CONTAFACT_1._0.contafact_newDataSet4TableAdapters.cat_regimen_fiscalTableAdapter()
+        Me.dgv_regimen_fiscal = New System.Windows.Forms.DataGridView()
         Me.IdregimenDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DescripcionregimenDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CatregimenfiscalBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.btn_agregar = New System.Windows.Forms.Button()
         Me.btn_eliminar = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Contafact_newDataSet4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_regimen_fiscal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CatregimenfiscalBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'dgv_regimen_fiscal
         '
-        Me.DataGridView1.AutoGenerateColumns = False
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdregimenDataGridViewTextBoxColumn, Me.DescripcionregimenDataGridViewTextBoxColumn})
-        Me.DataGridView1.DataSource = Me.CatregimenfiscalBindingSource
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 31)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(546, 150)
-        Me.DataGridView1.TabIndex = 0
-        '
-        'Contafact_newDataSet4
-        '
-        Me.Contafact_newDataSet4.DataSetName = "contafact_newDataSet4"
-        Me.Contafact_newDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'CatregimenfiscalBindingSource
-        '
-        Me.CatregimenfiscalBindingSource.DataMember = "cat_regimen_fiscal"
-        Me.CatregimenfiscalBindingSource.DataSource = Me.Contafact_newDataSet4
-        '
-        'Cat_regimen_fiscalTableAdapter
-        '
-        Me.Cat_regimen_fiscalTableAdapter.ClearBeforeFill = True
+        Me.dgv_regimen_fiscal.AutoGenerateColumns = False
+        Me.dgv_regimen_fiscal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_regimen_fiscal.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdregimenDataGridViewTextBoxColumn, Me.DescripcionregimenDataGridViewTextBoxColumn})
+        Me.dgv_regimen_fiscal.DataSource = Me.CatregimenfiscalBindingSource
+        Me.dgv_regimen_fiscal.Location = New System.Drawing.Point(12, 31)
+        Me.dgv_regimen_fiscal.Name = "dgv_regimen_fiscal"
+        Me.dgv_regimen_fiscal.Size = New System.Drawing.Size(546, 150)
+        Me.dgv_regimen_fiscal.TabIndex = 0
         '
         'IdregimenDataGridViewTextBoxColumn
         '
@@ -74,6 +58,18 @@ Partial Class Regimen_Fiscal
         Me.DescripcionregimenDataGridViewTextBoxColumn.HeaderText = "descripcion_regimen"
         Me.DescripcionregimenDataGridViewTextBoxColumn.Name = "DescripcionregimenDataGridViewTextBoxColumn"
         Me.DescripcionregimenDataGridViewTextBoxColumn.Width = 400
+        '
+        'CatregimenfiscalBindingSource
+        '
+        Me.CatregimenfiscalBindingSource.DataMember = "cat_regimen_fiscal"
+
+        '
+        'Contafact_newDataSet4
+        '
+                '
+        'Cat_regimen_fiscalTableAdapter
+        '
+
         '
         'btn_agregar
         '
@@ -105,19 +101,16 @@ Partial Class Regimen_Fiscal
         Me.ClientSize = New System.Drawing.Size(687, 226)
         Me.Controls.Add(Me.btn_eliminar)
         Me.Controls.Add(Me.btn_agregar)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dgv_regimen_fiscal)
         Me.Name = "Regimen_Fiscal"
         Me.Text = "Regimen Fiscal"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Contafact_newDataSet4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_regimen_fiscal, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CatregimenfiscalBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents Contafact_newDataSet4 As CONTAFACT_1._0.contafact_newDataSet4
+    Friend WithEvents dgv_regimen_fiscal As System.Windows.Forms.DataGridView
     Friend WithEvents CatregimenfiscalBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents Cat_regimen_fiscalTableAdapter As CONTAFACT_1._0.contafact_newDataSet4TableAdapters.cat_regimen_fiscalTableAdapter
     Friend WithEvents IdregimenDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DescripcionregimenDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents btn_agregar As System.Windows.Forms.Button

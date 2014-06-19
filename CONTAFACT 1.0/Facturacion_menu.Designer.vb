@@ -31,6 +31,7 @@ Partial Class Facturacion_menu
         Me.SellosDigitalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FoliosDigitalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsm_regimen_fiscal = New System.Windows.Forms.ToolStripMenuItem()
         Me.VersionesFacturacionElectronicaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.DatosGeneralesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -55,7 +56,7 @@ Partial Class Facturacion_menu
         '
         'CatalogosToolStripMenuItem
         '
-        Me.CatalogosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MetodosDePagoToolStripMenuItem, Me.FormasDePagoToolStripMenuItem, Me.EmisorToolStripMenuItem, Me.SellosDigitalesToolStripMenuItem, Me.FoliosDigitalesToolStripMenuItem, Me.ToolStripMenuItem1, Me.VersionesFacturacionElectronicaToolStripMenuItem, Me.ToolStripSeparator1, Me.DatosGeneralesToolStripMenuItem})
+        Me.CatalogosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MetodosDePagoToolStripMenuItem, Me.FormasDePagoToolStripMenuItem, Me.EmisorToolStripMenuItem, Me.SellosDigitalesToolStripMenuItem, Me.FoliosDigitalesToolStripMenuItem, Me.ToolStripMenuItem1, Me.tsm_regimen_fiscal, Me.VersionesFacturacionElectronicaToolStripMenuItem, Me.ToolStripSeparator1, Me.DatosGeneralesToolStripMenuItem})
         Me.CatalogosToolStripMenuItem.Name = "CatalogosToolStripMenuItem"
         Me.CatalogosToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.CatalogosToolStripMenuItem.Text = "&Catalogos"
@@ -95,6 +96,12 @@ Partial Class Facturacion_menu
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(250, 22)
         Me.ToolStripMenuItem1.Text = "&Iva"
+        '
+        'tsm_regimen_fiscal
+        '
+        Me.tsm_regimen_fiscal.Name = "tsm_regimen_fiscal"
+        Me.tsm_regimen_fiscal.Size = New System.Drawing.Size(250, 22)
+        Me.tsm_regimen_fiscal.Text = "&Regimen Fiscal"
         '
         'VersionesFacturacionElectronicaToolStripMenuItem
         '
@@ -149,4 +156,5 @@ Partial Class Facturacion_menu
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents tsm_regimen_fiscal As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -5,6 +5,8 @@ Public Class Facturacion_menu
 
     Private Sub SalirToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SalirToolStripMenuItem.Click
         Me.Visible = False
+        Main.Visible = True
+
     End Sub
 
     Private Sub OperacionToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OperacionToolStripMenuItem.Click
@@ -27,9 +29,7 @@ Public Class Facturacion_menu
     End Sub
 
     Private Sub ConsecutivosGeneralesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Dim form As New ConsecutivosGenerales
-        form.MdiParent = Me
-        form.Show()
+        
     End Sub
 
     Private Sub EmisorToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles EmisorToolStripMenuItem.Click
@@ -84,6 +84,13 @@ Public Class Facturacion_menu
 
     Private Sub DatosGeneralesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DatosGeneralesToolStripMenuItem.Click
         Dim form As New Datos_Generales
+        form.MdiParent = Me
+        form.Show()
+    End Sub
+
+
+    Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tsm_regimen_fiscal.Click
+        Dim form As New Regimen_Fiscal
         form.MdiParent = Me
         form.Show()
     End Sub

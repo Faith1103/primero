@@ -22,20 +22,19 @@ Partial Class Metodo_Pago
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Metodo_Pago))
         Me.dgv_metodo_pago = New System.Windows.Forms.DataGridView()
-        Me.Contafact_newDataSet2 = New CONTAFACT_1._0.contafact_newDataSet2()
-        Me.CatmetodopagoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Cat_metodo_pagoTableAdapter = New CONTAFACT_1._0.contafact_newDataSet2TableAdapters.cat_metodo_pagoTableAdapter()
         Me.IdmetodoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MetododescripcionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.btn_nuevo = New System.Windows.Forms.Button()
+        Me.CatmetodopagoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+
+                Me.btn_nuevo = New System.Windows.Forms.Button()
         Me.btn_elimina = New System.Windows.Forms.Button()
+        Me.btn_guardar = New System.Windows.Forms.Button()
         CType(Me.dgv_metodo_pago, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Contafact_newDataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CatmetodopagoBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+
         Me.SuspendLayout()
         '
         'dgv_metodo_pago
@@ -44,24 +43,10 @@ Partial Class Metodo_Pago
         Me.dgv_metodo_pago.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgv_metodo_pago.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdmetodoDataGridViewTextBoxColumn, Me.MetododescripcionDataGridViewTextBoxColumn})
         Me.dgv_metodo_pago.DataSource = Me.CatmetodopagoBindingSource
-        Me.dgv_metodo_pago.Location = New System.Drawing.Point(12, 12)
+        Me.dgv_metodo_pago.Location = New System.Drawing.Point(12, 14)
         Me.dgv_metodo_pago.Name = "dgv_metodo_pago"
         Me.dgv_metodo_pago.Size = New System.Drawing.Size(565, 162)
         Me.dgv_metodo_pago.TabIndex = 0
-        '
-        'Contafact_newDataSet2
-        '
-        Me.Contafact_newDataSet2.DataSetName = "contafact_newDataSet2"
-        Me.Contafact_newDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'CatmetodopagoBindingSource
-        '
-        Me.CatmetodopagoBindingSource.DataMember = "cat_metodo_pago"
-        Me.CatmetodopagoBindingSource.DataSource = Me.Contafact_newDataSet2
-        '
-        'Cat_metodo_pagoTableAdapter
-        '
-        Me.Cat_metodo_pagoTableAdapter.ClearBeforeFill = True
         '
         'IdmetodoDataGridViewTextBoxColumn
         '
@@ -75,6 +60,18 @@ Partial Class Metodo_Pago
         Me.MetododescripcionDataGridViewTextBoxColumn.HeaderText = "metodo_descripcion"
         Me.MetododescripcionDataGridViewTextBoxColumn.Name = "MetododescripcionDataGridViewTextBoxColumn"
         Me.MetododescripcionDataGridViewTextBoxColumn.Width = 400
+        '
+        'CatmetodopagoBindingSource
+        '
+        Me.CatmetodopagoBindingSource.DataMember = "cat_metodo_pago"
+
+        '
+        'Contafact_newDataSet2
+        '
+              '
+        'Cat_metodo_pagoTableAdapter
+        '
+
         '
         'btn_nuevo
         '
@@ -98,36 +95,47 @@ Partial Class Metodo_Pago
         Me.btn_elimina.TabIndex = 2
         Me.btn_elimina.UseVisualStyleBackColor = False
         '
-
-        Me.SuspendLayout()
+        'btn_guardar
         '
-
+        Me.btn_guardar.BackColor = System.Drawing.Color.Navy
+        Me.btn_guardar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_guardar.ForeColor = System.Drawing.Color.White
+        Me.btn_guardar.Image = CType(resources.GetObject("btn_guardar.Image"), System.Drawing.Image)
+        Me.btn_guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btn_guardar.Location = New System.Drawing.Point(254, 213)
+        Me.btn_guardar.Name = "btn_guardar"
+        Me.btn_guardar.Size = New System.Drawing.Size(160, 48)
+        Me.btn_guardar.TabIndex = 3
+        Me.btn_guardar.Text = "Guardar"
+        Me.btn_guardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btn_guardar.UseVisualStyleBackColor = False
+        '
         'Metodo_Pago
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.ClientSize = New System.Drawing.Size(716, 197)
+        Me.ClientSize = New System.Drawing.Size(716, 273)
+        Me.Controls.Add(Me.btn_guardar)
         Me.Controls.Add(Me.btn_elimina)
         Me.Controls.Add(Me.btn_nuevo)
         Me.Controls.Add(Me.dgv_metodo_pago)
         Me.Name = "Metodo_Pago"
         Me.Text = "Metodo Pago"
         CType(Me.dgv_metodo_pago, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Contafact_newDataSet2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CatmetodopagoBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents dgv_metodo_pago As System.Windows.Forms.DataGridView
-    Friend WithEvents Contafact_newDataSet2 As CONTAFACT_1._0.contafact_newDataSet2
+
     Friend WithEvents CatmetodopagoBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents Cat_metodo_pagoTableAdapter As CONTAFACT_1._0.contafact_newDataSet2TableAdapters.cat_metodo_pagoTableAdapter
-    Friend WithEvents IdmetodoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+       Friend WithEvents IdmetodoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents MetododescripcionDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents btn_nuevo As System.Windows.Forms.Button
     Friend WithEvents btn_elimina As System.Windows.Forms.Button
+    Friend WithEvents btn_guardar As System.Windows.Forms.Button
 
      
 End Class

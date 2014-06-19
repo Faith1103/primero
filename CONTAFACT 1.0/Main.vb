@@ -16,7 +16,9 @@ Public Class Main
     Private Sub FacturacionToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FacturacionToolStripMenuItem.Click
         Dim form As New Facturacion_menu
         ' form.MdiParent = Me
+
         form.Show()
+        Me.Visible = False
 
     End Sub
 

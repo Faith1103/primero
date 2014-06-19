@@ -24,7 +24,7 @@ Partial Class Folios_Digitales
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Folios_Digitales))
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.dgv_folios_digitales = New System.Windows.Forms.DataGridView()
         Me.IdserieDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DeffaultDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.SerieDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -34,25 +34,23 @@ Partial Class Folios_Digitales
         Me.NoaprobacionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.AnioaprobacionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CatfoliosdigitalesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Contafact_newDataSet5 = New CONTAFACT_1._0.contafact_newDataSet5()
-        Me.Cat_folios_digitalesTableAdapter = New CONTAFACT_1._0.contafact_newDataSet5TableAdapters.cat_folios_digitalesTableAdapter()
-        Me.btn_agregar = New System.Windows.Forms.Button()
+         Me.btn_agregar = New System.Windows.Forms.Button()
         Me.btn_eliminar = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_folios_digitales, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CatfoliosdigitalesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Contafact_newDataSet5, System.ComponentModel.ISupportInitialize).BeginInit()
+
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'dgv_folios_digitales
         '
-        Me.DataGridView1.AutoGenerateColumns = False
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdserieDataGridViewTextBoxColumn, Me.DeffaultDataGridViewTextBoxColumn, Me.SerieDataGridViewTextBoxColumn, Me.FolioinicialDataGridViewTextBoxColumn, Me.FoliofinalDataGridViewTextBoxColumn, Me.ConsecutivoDataGridViewTextBoxColumn, Me.NoaprobacionDataGridViewTextBoxColumn, Me.AnioaprobacionDataGridViewTextBoxColumn})
-        Me.DataGridView1.DataSource = Me.CatfoliosdigitalesBindingSource
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 25)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(734, 151)
-        Me.DataGridView1.TabIndex = 0
+        Me.dgv_folios_digitales.AutoGenerateColumns = False
+        Me.dgv_folios_digitales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_folios_digitales.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdserieDataGridViewTextBoxColumn, Me.DeffaultDataGridViewTextBoxColumn, Me.SerieDataGridViewTextBoxColumn, Me.FolioinicialDataGridViewTextBoxColumn, Me.FoliofinalDataGridViewTextBoxColumn, Me.ConsecutivoDataGridViewTextBoxColumn, Me.NoaprobacionDataGridViewTextBoxColumn, Me.AnioaprobacionDataGridViewTextBoxColumn})
+        Me.dgv_folios_digitales.DataSource = Me.CatfoliosdigitalesBindingSource
+        Me.dgv_folios_digitales.Location = New System.Drawing.Point(12, 25)
+        Me.dgv_folios_digitales.Name = "dgv_folios_digitales"
+        Me.dgv_folios_digitales.Size = New System.Drawing.Size(734, 151)
+        Me.dgv_folios_digitales.TabIndex = 0
         '
         'IdserieDataGridViewTextBoxColumn
         '
@@ -103,23 +101,15 @@ Partial Class Folios_Digitales
         'AnioaprobacionDataGridViewTextBoxColumn
         '
         Me.AnioaprobacionDataGridViewTextBoxColumn.DataPropertyName = "anio_aprobacion"
-        Me.AnioaprobacionDataGridViewTextBoxColumn.HeaderText = "Año Aprovacion"
+        Me.AnioaprobacionDataGridViewTextBoxColumn.HeaderText = "Año Aprobacion"
         Me.AnioaprobacionDataGridViewTextBoxColumn.Name = "AnioaprobacionDataGridViewTextBoxColumn"
         '
         'CatfoliosdigitalesBindingSource
         '
         Me.CatfoliosdigitalesBindingSource.DataMember = "cat_folios_digitales"
-        Me.CatfoliosdigitalesBindingSource.DataSource = Me.Contafact_newDataSet5
+       
         '
-        'Contafact_newDataSet5
-        '
-        Me.Contafact_newDataSet5.DataSetName = "contafact_newDataSet5"
-        Me.Contafact_newDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'Cat_folios_digitalesTableAdapter
-        '
-        Me.Cat_folios_digitalesTableAdapter.ClearBeforeFill = True
-        '
+      
         'btn_agregar
         '
         Me.btn_agregar.BackColor = System.Drawing.Color.Navy
@@ -150,20 +140,19 @@ Partial Class Folios_Digitales
         Me.ClientSize = New System.Drawing.Size(831, 186)
         Me.Controls.Add(Me.btn_eliminar)
         Me.Controls.Add(Me.btn_agregar)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dgv_folios_digitales)
         Me.Name = "Folios_Digitales"
         Me.Text = "Folios_Digitales"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_folios_digitales, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CatfoliosdigitalesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Contafact_newDataSet5, System.ComponentModel.ISupportInitialize).EndInit()
+
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents Contafact_newDataSet5 As CONTAFACT_1._0.contafact_newDataSet5
+    Friend WithEvents dgv_folios_digitales As System.Windows.Forms.DataGridView
+
     Friend WithEvents CatfoliosdigitalesBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents Cat_folios_digitalesTableAdapter As CONTAFACT_1._0.contafact_newDataSet5TableAdapters.cat_folios_digitalesTableAdapter
-    Friend WithEvents IdserieDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+       Friend WithEvents IdserieDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DeffaultDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents SerieDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents FolioinicialDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
